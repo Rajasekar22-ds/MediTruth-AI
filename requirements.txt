@@ -1,8 +1,12 @@
 Flask
+Flask-WTF
+WTForms
 nltk
-flask_wtf
-pandas
 scikit-learn
-bs4
+numpy
+pandas
 pytesseract
 Pillow
+joblib
+beautifulsoup4
+Werkzeug
