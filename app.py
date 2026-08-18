@@ -16,6 +16,8 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 @app.route("/", methods=["GET", "POST"])
 def home():
+    UPLOAD_FOLDER = "static/uploads"
+    os.makedirs(UPLOAD_FOLDER, exist_ok=True)
     form = OriginalTextForm()
     output = None
 
